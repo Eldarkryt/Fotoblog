@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  // width: 936px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: solid fuchsia;
+  @media screen and (min-width: 936px) {
+    max-width: 936px;
+    outline: solid red;
+  }
+}
